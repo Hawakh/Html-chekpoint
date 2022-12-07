@@ -1,0 +1,87 @@
+    /* télecharger nouveau police */
+@font-face {
+    font-family:"roboto ";
+    src: url(https://fonts.google.com/specimen/Roboto);
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    background-color: white;
+    font-family: "roboto";
+    font-weight: normal;
+    font-size: normal;  }
+ /* rendre l'élement de header sous une seule ligne */
+header {
+    display: inline;}
+/* modifier le style  de premier element du header dans notre cas il ya une image */
+
+ header>img{
+    margin-left: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-bottom: 1px;
+      border: 1px solid red;
+    width :500px;
+    max-height: max-content; }
+/* rendre tous le lien ne sons pas ouligné et change de couleur en cas d'activation en cas qui n'est pas selectionné ,encas le souris en dessous de lien et le cas lorsque il est active et target pour ouvrir dans un nouvelle onglet */
+navbar{
+    
+    font-size: 25px;
+    margin-left: 700px;
+    
+   
+}
+#Home{
+
+    border: 1px solid red;
+    display: inline;
+    width: fit-content;
+    height: fit-content;
+
+}
+.fa-brands fa-facebook{
+    width:50px;
+}
+table,td,th{
+    border: 2px dotted red;
+    text-align: center;
+}
+
+
+ol,li{
+    font-size: large;
+    text-align: left;
+    font-weight: 100px;
+}
+
+a{ 
+    padding: 10 px 10px;
+    margin: 10px 10px;
+    font: weight 900px;;
+    border: 1px solid red;
+    text-decoration: none;
+    border-radius: 15px;
+}
+    
+    /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(14, 15, 14);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+.global{
+    border: 5px solid black;
+}
